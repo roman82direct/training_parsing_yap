@@ -29,7 +29,7 @@ Base = declarative_base(cls=PreBase)
 
 
 class Pep(Base):
-    __tablename__ = 'pep'  # Задали имя таблицы в БД.
+    # __tablename__ = 'pep'  # Задали имя таблицы в БД.
 
     # Описываем свойства модели/колонки таблицы:
     # id = Column(Integer, primary_key=True)
